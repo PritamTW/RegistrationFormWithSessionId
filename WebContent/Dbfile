@@ -1,0 +1,31 @@
+CREATE TABLE  IF NOT EXISTS t_loguseractivity(RecordDate date,RecordTime time, UserName varchar(100),UserIp varchar(100),SessionID varchar(100),LogOutDate date ,LogOutTime time);
+
+
+
+
+
+
+alter table t_loguseractivity change column RecordDate  loginDate varchar(100);
+
+Error : Field 'srno' doesn't have a default value
+ALTER TABLE members MODIFY srno int NOT NULL AUTO_INCREMENT;
+
+
+Command to copy table
+
+create table members select * from db_EMP.members;
+
+CREATE TABLE IF NOT EXISTS `members` (
+  `srno` int NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(45) NOT NULL,
+  `last_name` varchar(45) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `user` varchar(100) DEFAULT NULL,
+  `pass` varchar(45) NOT NULL,
+  `regdate` date NOT NULL,
+   PRIMARY KEY (srno)
+);
+
+ALTER TABLE members AUTO_INCREMENT=1;
+
+alter table members add primary key(srno);
