@@ -76,7 +76,7 @@
 								<td><input type="password" name="password" value=""
 									id="password" placeholder="Password" /></td>
 							<tr>
-								<td colspan="1"><input type="image" src="login1.jpg"
+								<td colspan="1"><input type="image" src="Images/login1.jpg"
 									width="85px" height="45px"></td>
 								<td><a href="reg.jsp">Register Here</a> <br>
 								<br> <a href="forgetpassword.jsp">forget password ??</a></td>

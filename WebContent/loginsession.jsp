@@ -3,7 +3,7 @@
 <%@page import="java.sql.Statement"%>
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
-
+<%@include file="Header.jsp" %>
 <%@include file="conn1.jsp"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -78,7 +78,7 @@
      
      out.println("<table><tr><td>welcome  </td><td>" + userid);
      out.println("</td></tr>");
-     out.println("<tr><td><a href='logout.jsp'><input type='image' src='logout.png' width='45px' height='45px'></a>");
+     out.println("<tr><td><a href='logout.jsp'><input type='image' src='Images/logout.png' width='45px' height='45px'></a>");
      out.println("</td></tr></table>");
  }
  else{

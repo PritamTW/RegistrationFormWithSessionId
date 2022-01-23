@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+	
+	margin: 40px;
+	background-color:  #ffeecc;
+}
+
+
+
+a{
+	font-size: 20px;
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	padding: 6px 0px;  /* top bottom ,left right provide space b/w text  */
+	border: 1px solid black;
+	border-radius:15px;     
+	text-decoration: none; /*  use for remove hyperlink under line */
+	
+	
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+	text-transform: uppercase;  /*  use for converting text in uppercase */
+/* 	font-weight: bolder;  */ /* font-weight is used for  changing text font */
+	
+}

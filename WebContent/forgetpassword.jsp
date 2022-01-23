@@ -42,6 +42,7 @@
 			</tr>
 			<tr>
 				<td><input type="submit" value="Change Password"></td>
+				<td><a href="home.jsp"> <img alt="" src="Images/back1.png" width="50px" height="50px"></a></td>
 			</tr>
 			</tbody>
 			

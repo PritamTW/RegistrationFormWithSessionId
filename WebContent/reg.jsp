@@ -36,8 +36,10 @@
                         <td><input type="password" name="pass" value="" required="required" /></td>
                     </tr>
                     <tr>
-                        <td><input type="submit" value="Submit" /></td>
-                        <td><input type="reset" value="Reset" /></td>
+                        <td><input type="image" src="submit.jpg" width="85px" height="50px" /></td>
+                        <td><input type="reset" value="Reset"  style="background-color:blue; color: white; padding: 8px 8px" /> &nbsp; &nbsp;
+                        <a href="home.jsp"> <img alt="" src="back1.png" width="85px" height="50px"></a>
+                        </td>                        
                     </tr>
                     <tr>
                         <td colspan="2">Already registered!! <a href="home.jsp">Login Here</a></td>
